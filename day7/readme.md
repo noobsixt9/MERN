@@ -36,15 +36,16 @@ create route function and add database object which intialize the table example:
  ```condb.books.findAll()```  //Select * from book : to fetch all of the book data from database 
  always gives data in array
 
-```condb.books.create({
+
+```
+condb.books.create({
     columnName : value,
     columnName : value,
     columnName : value,
-})```   //insert data into the table
-
-
-
- while doing db query, frontend api call/http request, file read, IO operation, it takes some time so we have to use ```async, await ``` asynchoronous operations 
+})
+```
+insert data into the table
+while doing db query, frontend api call/http request, file read, IO operation, it takes some time so we have to use ```async, await ``` asynchoronous operations 
 
 ```aysnc ``` marks a function as asynchoronous and that function will always return a promise, even if its returns a value.
 
