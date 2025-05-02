@@ -24,5 +24,9 @@ Lastly we need to import the routes from the routes folder into the main app.js 
 This all of the code managing is called code refactoring using MVC pattern in development. 
 
 
+Lastly we also created a singleAPI which includes paramters from the url using 
+```req.params.<paramter-name>```
+and based on the parameter respond specific json object
+
 
 
